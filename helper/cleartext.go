@@ -1,8 +1,8 @@
 package helper
 
 import (
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/pkg/errors"
+	"github.com/yougroupteam/gopenpgp/v2/crypto"
 )
 
 // SignCleartextMessageArmored signs text given a private key and its

@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/ProtonMail/gopenpgp/v2/constants"
 	"github.com/stretchr/testify/assert"
+	"github.com/yougroupteam/gopenpgp/v2/constants"
 )
 
 const signedPlainText = "Signed message\n"

@@ -4,7 +4,7 @@ package internal
 import (
 	"strings"
 
-	"github.com/ProtonMail/gopenpgp/v2/constants"
+	"github.com/yougroupteam/gopenpgp/v2/constants"
 )
 
 func CanonicalizeAndTrim(text string) string {

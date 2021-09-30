@@ -3,9 +3,9 @@ package helper
 import (
 	"testing"
 
-	"github.com/ProtonMail/gopenpgp/v2/constants"
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/stretchr/testify/assert"
+	"github.com/yougroupteam/gopenpgp/v2/constants"
+	"github.com/yougroupteam/gopenpgp/v2/crypto"
 )
 
 func TestMobileSignedMessageDecryption(t *testing.T) {

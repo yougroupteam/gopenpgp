@@ -4,10 +4,10 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/ProtonMail/gopenpgp/v2/internal"
+	"github.com/yougroupteam/gopenpgp/v2/internal"
 
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/stretchr/testify/assert"
+	"github.com/yougroupteam/gopenpgp/v2/crypto"
 )
 
 const inputPlainText = "  Signed message\n  \n  "
