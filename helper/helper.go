@@ -2,8 +2,8 @@
 package helper
 
 import (
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/pkg/errors"
+	"github.com/yougroupteam/gopenpgp/v2/crypto"
 )
 
 // EncryptMessageWithPassword encrypts a string with a passphrase using AES256.

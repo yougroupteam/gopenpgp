@@ -4,8 +4,8 @@
 package helper
 
 import (
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/pkg/errors"
+	"github.com/yougroupteam/gopenpgp/v2/crypto"
 )
 
 // EncryptSignAttachment encrypts an attachment using a detached signature, given a publicKey, a privateKey

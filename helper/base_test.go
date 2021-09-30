@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
+	"github.com/yougroupteam/gopenpgp/v2/crypto"
 )
 
 const testTime = 1557754627 // 2019-05-13T13:37:07+00:00

@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/ProtonMail/gopenpgp/v2/constants"
 	"github.com/pkg/errors"
+	"github.com/yougroupteam/gopenpgp/v2/constants"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/packet"

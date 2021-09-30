@@ -1,4 +1,4 @@
-module github.com/ProtonMail/gopenpgp/v2
+module github.com/yougroupteam/gopenpgp/v2
 
 go 1.15
 

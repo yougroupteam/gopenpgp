@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ProtonMail/gopenpgp/v2/crypto"
 	"github.com/stretchr/testify/assert"
+	"github.com/yougroupteam/gopenpgp/v2/crypto"
 )
 
 func TestAESEncryption(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	"github.com/ProtonMail/gopenpgp/v2/constants"
 	"github.com/pkg/errors"
+	"github.com/yougroupteam/gopenpgp/v2/constants"
 )
 
 // Encrypt encrypts a PlainMessage, outputs a PGPMessage.
