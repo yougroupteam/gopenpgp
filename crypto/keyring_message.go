@@ -31,11 +31,16 @@ func (keyRing *KeyRing) Encrypt(message *PlainMessage, privateKey *KeyRing) (*PG
 // * message : The plain data as a PlainMessage.
 // * privateKey : (optional) an unlocked private keyring to include signature in the message.
 // * output  : The encrypted data as PGPMessage.
-func (keyRing *KeyRing) EncryptWithCompression(message *PlainMessage, privateKey *KeyRing) (*PGPMessage, error) {
+// * cipherFunction : The type of cipher
+// * compressionAlgo  : algo used for compression.
+func (keyRing *KeyRing) EncryptWithCompression(message *PlainMessage,
+	privateKey *KeyRing,
+	cipherFunction packet.CipherFunction,
+	compressionAlgo packet.CompressionAlgo) (*PGPMessage, error) {
 	config := &packet.Config{
-		DefaultCipher:          packet.CipherAES256,
+		DefaultCipher:          cipherFunction,
 		Time:                   getTimeGenerator(),
-		DefaultCompressionAlgo: constants.DefaultCompression,
+		DefaultCompressionAlgo: compressionAlgo,
 		CompressionConfig:      &packet.CompressionConfig{Level: constants.DefaultCompressionLevel},
 	}
 
